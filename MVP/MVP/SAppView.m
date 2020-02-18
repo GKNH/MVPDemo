@@ -18,7 +18,7 @@
 // 初始化
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        // 创建视图
+        // 创建UIImageView
         UIImageView *iconView = [[UIImageView alloc] init];
         iconView.frame = CGRectMake(0, 0, 100, 100);
         [self addSubview:iconView];
